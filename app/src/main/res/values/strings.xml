@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Practica11MendozaReyesAngelEmanuel</string>
+
+    <string name="principal">Principal</string>
+    <string name="galeria">Galería</string>
+    <string name="formulario">Formulario</string>
+
+    <string-array name="Canciones">
+        <item>PRC</item>
+        <item>Madonna</item>
+        <item>MEMORIAS</item>
+    </string-array>
+
+    <string name="pausar">Pausar</string>
+    <string name="conclusion">La implementación del TabLayout en la aplicación ha optimizado de manera notable la interactividad para el usuario. Las pestañas, organizadas de forma meticulosa, permiten un acceso eficiente a diversas secciones, tales como la reproducción de audio y el formulario de evaluación.
+                              La integración de barras de progreso en el TabLayout facilita el control preciso del tiempo de reproducción de las canciones, posibilitando que los usuarios ajusten con exactitud el punto específico que desean escuchar.
+                              Además, se ha incorporado la capacidad de calificar tanto la aplicación como las canciones directamente desde el TabLayout. Esta funcionalidad no solo mejora la experiencia del usuario, sino que también proporciona una retroalimentación valiosa sobre el contenido ofrecido, contribuyendo al continuo perfeccionamiento del servicio.</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

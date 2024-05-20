@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Galeria">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#333333"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtTitulo2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="@string/galeria"
+            android:textAlignment="center"
+            android:textColor="#FFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/spnCancion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/marcaredonda" />
+
+        <SeekBar
+            android:id="@+id/sbAudio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:max="100"
+            android:padding="30dp"
+            android:progressBackgroundTint="#f84600"
+            android:progressTint="#f84600"
+            android:secondaryProgressTint="#f84600" />
+
+        <Button
+            android:id="@+id/btnPausar"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="@string/pausar"
+            android:textColor="#1d0c20"
+            android:backgroundTint="#f84600" />
+    </LinearLayout>
+
+</FrameLayout>
